@@ -1,6 +1,6 @@
 :root {
   --bg-body: #11182799;
-  --main: #a30b25;
+  --main: #015aa7;
   --seconde: #4b5563;
   --text: #ffffff;
 }
@@ -328,10 +328,19 @@ footer .copy-rights a:hover {
 }
 
 @media (max-width: 1199px) {
+  .slider-container {
+    width: 60%;
+  }
 }
 @media (max-width: 991px) {
+  .slider-container {
+    width: 75%;
+  }
 }
 @media (max-width: 767px) {
+  .slider-container {
+    width: 90%;
+  }
   .slider-controls .pagination ul li {
     font-size: 0.7rem;
   }
